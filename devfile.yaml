@@ -8,9 +8,9 @@ components:
       memoryLimit: 1G
       endpoints:
         - exposure: public
-          name: nodejs
+          name: livereload
           protocol: http
-          targetPort: 4100
+          targetPort: 35729
 
 commands:
   - id: install-dependencies
