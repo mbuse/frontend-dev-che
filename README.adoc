@@ -2,6 +2,12 @@
 :toclevels: 2
 = CoreMedia Frontend Workspace for Blueprints
 
+To start developing, choose one of these options:
+
+ - https://workspaces.openshift.com/f?url=https://github.com/mbuse/frontend-dev-che[Open Workspace in OpenShift Dev Spaces with VS Code]
+ - https://workspaces.openshift.com/f?url=https://github.com/mbuse/frontend-dev-che&che-editor=che-incubator/che-idea/latest[Open Workspace in OpenShift Dev Spaces with IntelliJ IDEA]
+
+
 This README file describes how you get started with the CoreMedia Frontend Workspace for Blueprints.
 
 toc::[]
