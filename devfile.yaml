@@ -1,0 +1,32 @@
+schemaVersion: 2.1.0
+metadata:
+  name: frontend-dev-che
+components:
+  - name: tools
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      memoryLimit: 1G
+      endpoints:
+        - exposure: public
+          name: nodejs
+          protocol: http
+          targetPort: 4100
+
+commands:
+  - id: install-dependencies
+    exec:
+      label: "Install all required dependencies"
+      component: tools
+      workingDir: ${PROJECT_SOURCE}
+      commandLine: "npm install"
+      group:
+        kind: build
+
+  - id: start-application
+    exec:
+      label: "Start the local server"
+      component: tools
+      workingDir: ${PROJECT_SOURCE}
+      commandLine: "npm start"
+      group:
+        kind: run
