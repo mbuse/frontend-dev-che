@@ -1,7 +1,8 @@
 :toc: macro
 :toclevels: 2
 
-https://workspaces.openshift.com/f?url=https://github.com/mbuse/frontend-dev-che[image::https://www.eclipse.org/che/contribute.svg[Contribute]]
+[#img-sunset,caption="Figure 1: ",link=https://workspaces.openshift.com/f?url=https://github.com/mbuse/frontend-dev-che]
+image::https://www.eclipse.org/che/contribute.svg[Contribute]]
 
 = CoreMedia Frontend Workspace for Blueprints
 
