@@ -1,0 +1,53 @@
+{
+  "sliderMetaData": {
+    "cm_responsiveDevices": {
+      "mobile_portrait": {
+        "width": 414,
+        "height": 736,
+        "order": 1
+      },
+      "mobile_landscape": {
+        "width": 736,
+        "height": 414,
+        "order": 2
+      },
+
+      "tablet_portrait": {
+        "width": 768,
+        "height": 1024,
+        "order": 3
+      },
+
+      "tablet_landscape": {
+        "width": 1024,
+        "height": 768,
+        "order": 4
+      }
+    },
+
+    "cm_preferredWidth": 1280
+  },
+
+  "fragmentPreview": {
+    "CMTeasable": [
+      {
+        "titleKey": "preview_label_default",
+        "viewName": "DEFAULT"
+      },
+      {
+        "titleKey": "preview_label_asTeaser",
+        "viewName": "asTeaser"
+      },
+      {
+        "titleKey": "preview_label_asVerticalTeaser",
+        "viewName": "asVerticalTeaser"
+      }
+    ],
+    "CMCollection": [
+      {
+        "titleKey": "preview_label_asTeaser",
+        "viewName": "asTeaser"
+      }
+    ]
+  }
+}

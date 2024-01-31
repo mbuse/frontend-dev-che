@@ -1,0 +1,10 @@
+// Dependency styles
+@import "?smart-import-partials";
+
+// Own partials
+@import "partials/pictures";
+@import "partials/teaser";
+@import "partials/carousel";
+
+@import "../css/business-casual";
+@import "../css/business-casual-fonts";
